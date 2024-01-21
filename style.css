@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: lavender;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Times New Roman", Times, serif;
+}
+.con
+{
+    position: relative;
+    width: 100%;
+    max-width: 700px;
+    min-height: 1000px;
+    background-color: #fff;
+    display: grid;
+    margin: 50px;
+    grid-template-columns: 1.2fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.2);
+}
+.con .left{
+    position: relative;
+    background-color: #003147;
+    padding: 30px;
+}
+.con .right{
+    position: relative;
+    background-color: #fff;
+    padding: 30px;
+    width: 90%;
+    
+}
+.profile .image
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profile .image image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.profile .contact{
+    color: #fff;
+    margin-top: 40px;
+    font: size 15px;
+}
+.profile .contact .title
+{
+    margin-top: 10px;
+    color: white; 
+}
+.profile .summary{
+    color: #fff;
+    margin-top: 20px;
+    font: size 15px;
+}
+.profile .summary .title1
+{
+    margin-top: 10px;
+    color: white;
+}
+.profile .programming{
+    color: #fff;
+    margin-top: 20px;
+    font: size 15px;
+}
+.profile .programming .title3
+{
+    margin-top: 10px;
+    color: white;
+}
+.profile .Language{
+    color: #fff;
+    margin-top: 20px;
+    font: size 15px;
+}
+.profile .Language .title4
+{
+    margin-top: 10px;
+    color: white;
+    text-decoration: underline; 
+}
+.profile .area{
+    color: #fff;
+    margin-top: 20px;
+    font: size 15px;
+}
+.profile .area .title5
+{
+    margin-top: 10px;
+    color: white;
+}
+.pro h1{
+    color: black;
+    line-height: 1.4em;
+    font-weight: 1000;
+    margin-top:40px;
+}
+.pro .t1{
+    margin-top: 10px;
+    font: size 10px;  
+}
+.pro .co-activity{
+    padding-left: 2px;  
+}
+.pro .co-activity .t2{
+    padding-left: 0px;
+}
+.pro .co-activity  .hack{
+   padding-left: 15px;
+   margin: 2px 5px;
+}
+.pro .co-activity .tech{
+    padding-left: 15px;
+    margin: 2px 5px;
+ }
+ .pro .co-activity .cert{
+    padding-left: 15px;
+     margin: 2px 5px;
+ }
+ .pro .extra{
+   padding-left:2px;
+ }
+ .pro .extra .t3{
+    padding-left: 0px;
+ }
+ .pro .extra .Sports{
+    padding-left: 15px;
+    margin: 2px 5px;
+ }
+ .pro .extra .Club{
+    padding-left: 15px;
+    margin: 2px 5px;
+ }
+ .pro .achievement{
+    padding-left: 2px;
+ }
+ .pro .achievement .t4{
+    padding-left: 0px;
+ }
+ .pro .achievement .achi{
+    padding-left: 15px;
+    margin: 2px 5px;
+ }
+ .pro .tech{
+    padding-left: 2px;
+ }
+ .pro .tech .t5{
+    padding-left: 0px;
+ }
+ .pro .tech .t6{
+    padding-left: 0px;
+ } 
+ .pro .tech .t{
+    padding-left: 15px;
+    margin: 2px 5px;
+ } 
+
+
+ 
+ .pro .tech .t7{
+    padding-left: 0px;
+ } 
+ .pro .tech .nt{
+    padding-left: 15px;
+    margin: 2px 5px;
+ } 
+ 
